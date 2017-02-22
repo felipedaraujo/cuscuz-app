@@ -1,0 +1,23 @@
+<ion-view>
+  <ion-content class="stable-bg">
+    <div class="card" ng-repeat="item in items">
+      <div class="item item-image" ng-click="openRecipe(item)">
+        <img ng-src="{{item.banner}}" alt="{{item.title}}">
+      </div>
+
+      <!-- <div class="button-bar">
+        <a class="button button-icon icon ion-ios-heart" ng-click="favorited = !favorited" ng-class="favorited ? 'assertive' : 'opaque'"></a>
+        <a class="button button-icon icon ion-android-star opaque" ng-click="rate()"></a>
+        <a class="button button-icon icon  ion-android-share-alt opaque" ng-click="share()"></a>
+      </div> -->
+
+      <div class="item">
+          <h2 ng-click="openRecipe(item)"><b>{{item.title}}</b></h2>
+          <p ng-click="openRecipe(item)">
+            com <span ng-repeat="ingredient in item.ingredients.main">{{ingredient}}{{ (!$last) ? ', ' : ''}}</span>
+          </p>
+          <p>Level {{item.level}} · {{item.time}} min  ·  {{item.servings}} porções</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

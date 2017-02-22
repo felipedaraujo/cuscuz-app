@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+
+.opaque {
+  opacity: .2;
+}
+
+.item {
+  border-width: 0;
+}
+
+.item.item-input{
+  border-width: 1px;
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "banner": "img/cuscuz_nordestino.jpg",
+    "title": "Cuscuz Nordestino",
+    "ingredients": {
+        "main": [
+          "Farinha de milho",
+          "Água",
+          "Sal"
+        ],
+        "all": [
+          "3 xícaras de Farinha de milho(Flocão)",
+          "1 xícara de Água",
+          "1 colher(chá) de Sal"
+        ]
+    },
+    "method": [
+      "Em um recipiente, adicione o fubá e umedeça com a água e acrescente o sal.",
+      "Deixe descansar por 5 minutos. Em seguida coloque água na cuscuzeira até atingir a marca (toda cuscuzeira tem uma marca até onde você deve colocar água).",
+      "Transfira o fubá para a cuscuzeira. Cozinhe por cerca de 10 minutos.",
+      "Se você não tiver cuscuzeira coloque água pra ferver numa panela e em cima coloque uma panela pra cozinhar a vapor com o fubá dentro.",
+      "Sirva quente com manteiga, ou ovo frito, ou ainda queijo de coalho frito."
+    ],
+    "level": "1",
+    "time": "15",
+    "servings": "4"
+  },
+  {
+    "banner": "img/bolo_de_cuscuz.jpg",
+    "title": "Bolo de Cuscuz",
+    "ingredients": {
+      "main": [
+        "Farinha de milho",
+        "Leite",
+        "Coco ralado"
+      ],
+      "all": [
+        "2 copos de Açúcar",
+        "2 copos de Farinha de milho(Flocão)",
+        "2 copos de Leite",
+        "1/2 copo de Óleo",
+        "4 colheres de Farinha de trigo",
+        "3 Ovos",
+        "2 colheres de sopa de Fermento",
+        "Coco ralado"
+      ]
+    },
+    "method": [
+      "Bater no liquidificador o açúcar, o leite, o óleo, a farinha e os ovos",
+      "Depois misturar a farinha de cuscuz, o coco ralado e o pó royal",
+      "Despeje a massa em uma forma untada e polvilhada",
+      "Asse em forno pré-aquecido (180ºC), por 40 minutos"
+    ],
+    "level": "2",
+    "time": "60",
+    "servings": "10"
+  },
+  {
+    "banner": "img/farofa_de_cuscuz.jpg",
+    "title": "Farofa de Cuscuz",
+    "ingredients": {
+      "main": ["Farinha de milho", "Bacon", "Cebola"],
+      "all": [
+        "5 colheres de sopa Margarina",
+        "1 1/4 xícaras Farinha de milho(Flocão)",
+        "1/2 xícara bacon magro picado",
+        "1 Cebola pequena picada",
+        "1 gomo de Linguiça calabresa defumada cortada em cubos",
+        "2 colheres de sopa Pimentão verde picado",
+        "2 Tomates pequenos, sem semente, picados em cubos",
+        "2 Ovos cozidos",
+        "4 colheres de sopa Coentro ou Cheiro verde picadinho",
+        "Sal a gosto"
+      ]
+    },
+    "method": [
+      "Prepare o cuscuz conforme recomendação do fabricante e reserve.",
+      "Em uma panela, leve o bacon para fritar na própria gordura.",
+      "Em seguida junte a margarina, a cebola e frite-a até ficar transparente.",
+      "Acrescente a linguiça calabresa e frite.",
+      "Junte o pimentão, o tomate, o cuscuz já solto e misture até secar.",
+      "Agregue os ovos cozidos e cortados em pedaços grandes, o coentro ou cheiro verde picadinho, acerte o sal e sirva."
+    ],
+    "level": "1",
+    "time": "30",
+    "servings": "9"
+  }
+]

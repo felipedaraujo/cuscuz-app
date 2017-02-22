@@ -1,0 +1,44 @@
+<ion-modal-view>
+  <ion-header-bar align-title="center" class="bar-energized">
+    <button type="button" name="button" class="button button-clear button-icon" ng-click="closeModal()"><i class="icon ion-android-arrow-back"></i></button>
+    <h1 class="title">Inscreva-se</h1>
+  </ion-header-bar>
+
+  <ion-content class="padding">
+    <form class="text-center" name="subscriptionForm">
+
+      <div ng-hide="subscribed || error">
+        <h4>Seja um dos primeiros a ser avisado quando o Cuscuz App estiver completo!</h4>
+        <label class="item item-input">
+          <input type="email" name="email" ng-model="newUser.email" placeholder="Email" required>
+        </label>
+        <button type="submit" name="button" class="button button-block button-energized" ng-disabled="subscriptionForm.$invalid" ng-click="subscribe()" >Enviar</button>
+        <button type="button" name="button" class="button button-block button-stable" ng-click="closeModal()">Agora Não</button>
+      </div>
+
+      <div ng-show="subscribed" ng-cloak>
+        <div class="card">
+          <h4>Aê que legal!</h4>
+          <div class="item item-image">
+            <img src="img/jaque.gif" alt="Jaque">
+          </div>
+          <h4>Estamos muito felizes pelo seu interesse!</h4>
+          <p>Logo entraremos em contato com você ;)</p>
+        </div>
+        <button type="button" name="button" class="button button-block button-energized" ng-click="closeModal()">Sair</button>
+      </div>
+
+      <div ng-show="error" ng-cloak>
+        <div class="card">
+          <h4>Ah não!</h4>
+          <div class="item item-image">
+            <img src="img/mayara.gif" alt="Jaque">
+          </div>
+          <h4>Não foi possível cadastrar seu email na nossa lista.</h4>
+          <p>Por favor, tente outra vez mais tarde :(</p>
+        </div>
+        <button type="button" name="button" class="button button-block button-energized" ng-click="closeModal()">Sair</button>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>
