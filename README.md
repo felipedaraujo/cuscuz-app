@@ -1,3 +1,7 @@
 # Cuscuz App
 
-### Screenshoots
+### How it started
+
+### Screenshots
+
+### Usage
